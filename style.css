@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+body{
+
+    font-family: 'Crimson Text', serif;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-attachment: fixed
+    
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+h1{
+    font-size: x-large;
+}
+nav{
+    border: rgb(221, 218, 218) 4px inset;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px ;
+    padding: 10px;
+}
+nav .options, h1{
+    color: aliceblue;
+    display: inline;
+   
+}
+nav, h1{
+    color: aliceblue;
+    text-decoration: underline;
+
+}
+
+.options{
+    margin-left: 70%;
+}
+.options a{
+    border: rgb(211, 206, 206) 3px outset;
+}
+section{
+    margin-top: 5%;
+}
+.tarjeta{
+    width:50% ;
+    margin: auto;
+    text-align: center;
+   
+    
+}
+.tarjeta img{
+    width: 45%;
+    height:45% ;
+    border-radius: 90%;
+    border: rgb(221, 218, 218) 4px inset;
+    object-fit: cover;
+}
+.contenido{
+    border: rgb(211, 206, 206) 3px outset;
+    width: 30%;
+    display: inline-block;
+    margin:1% ;
+
+}
+.contenido img{
+    
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+h2{
+    color: aliceblue;
+}
+.contenido  h3 , p{
+    text-align: center;
+    color: aliceblue;
+}
+.contenedor2{
+    text-align: center;
+    border: rgb(211, 206, 206) 3px outset;
+    width: 80%;
+    margin: auto;
+    padding: 5%;   
+}
+.contenedor2 p{
+    font-size: large;
+
+}
+.contenedor2 form label{
+    display: block;
+}
+
